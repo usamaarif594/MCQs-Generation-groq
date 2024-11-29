@@ -1,4 +1,4 @@
 streamlit
 PyPDF2
 reportlab
-groq=0.11.1
+groq==0.11.1
