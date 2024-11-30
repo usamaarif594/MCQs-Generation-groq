@@ -65,7 +65,7 @@ def save_text_as_pdf(text, font_size=12, margin=15):
     return pdf_buffer
 
 # Streamlit app setup
-GROQ_API_KEY = st.sidebar.text_input('Paste your API Here',type=password')
+GROQ_API_KEY = st.sidebar.text_input('Paste your API Here',type='password')
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 # Initialize session state variables
