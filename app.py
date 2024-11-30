@@ -28,7 +28,7 @@ def extract_text_from_pdf(pdf_file, max_pages=6):
     return text
 
 # Function to save text as a PDF with wrapping
-def save_text_as_pdf(text, font_size=12, margin=15):
+def save_text_as_pdf(text, font_size=12, margin=10):
     """
     Saves the given text to a PDF file, wrapping lines dynamically based on the page width.
 
